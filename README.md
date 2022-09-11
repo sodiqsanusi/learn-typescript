@@ -1,0 +1,1 @@
+# A documentation of me trying to learn TypeScipt
