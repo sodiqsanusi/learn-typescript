@@ -36,3 +36,11 @@ Based on what has been taught, anytime you make changes in your Typescript file,
 tsc sandbox.ts -w
 ```
 The `-w` flag lets the command watch the specified Typescript file and auto-compiles it per save.
+
+# Video 3 - Static Types
+
+Talked on the available types present by default in Typescript and on how a variable's Type is inferred based on its value (if not pre-defined)
+
+[Notes](./Video%203.ts)
+
+# Video 4 - Object & Array Types
