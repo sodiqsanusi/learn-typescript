@@ -44,3 +44,7 @@ Talked on the available types present by default in Typescript and on how a vari
 [Notes](./Video%203.ts)
 
 # Video 4 - Object & Array Types
+
+Learnt on how the strict typing affects arrays and objects.
+
+[Notes](./Video%204.ts)
