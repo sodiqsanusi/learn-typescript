@@ -48,3 +48,9 @@ Talked on the available types present by default in Typescript and on how a vari
 Learnt on how the strict typing affects arrays and objects.
 
 [Notes](./Video%204.ts)
+
+# Video 5 - Explicit & Union Types
+
+Learnt on how to create variables that can accept different data types and on how to create a custom object type
+
+[Notes](./Video%205.ts)
