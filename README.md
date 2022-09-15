@@ -54,3 +54,21 @@ Learnt on how the strict typing affects arrays and objects.
 Learnt on how to create variables that can accept different data types and on how to create a custom object type
 
 [Notes](./Video%205.ts)
+
+# Video 6 - Dynamic (`any`) Types
+
+This talked on the usefulness of the `any` type. This will let the specified variable accept all data types as its value.
+
+# Video 7 - Better Workflow & tsconfig
+
+He talks about creating a config file for the Typescript, and on how to improve your workflow through it.
+To create the .tsconfig file, you can input this code in your terminal:
+```bash
+tsc init
+```
+
+# Video 8 - Function Basics (& void)
+
+Learnt on how to specify data types for function parameters and the return value of the function. Also learnt on how to make a parameter optional.
+
+[Notes](./Video%208.ts)
