@@ -80,3 +80,9 @@ Learnt about creating custom types and using them for variables or objects.
 [Notes](./Video%209.ts)
 
 # Video 10 - Function Types (signatures)
+
+This video talked on how to create custom types for function using Function Signatures.
+
+[Notes](./Video%2010.ts)
+
+# Video 11 - DOM Interaction & Typecasting
