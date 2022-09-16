@@ -86,3 +86,13 @@ This video talked on how to create custom types for function using Function Sign
 [Notes](./Video%2010.ts)
 
 # Video 11 - DOM Interaction & Typecasting
+
+Learnt how to query DOM elements through Typescript and the differences it has with Javascript
+
+[Notes](./Video%2011.ts)
+
+# Video 12 - Classes
+
+This talked on how you create classes with Typescript and on how a class can be used as a default type.
+
+# Video 13 - Public, Private & Readonly
