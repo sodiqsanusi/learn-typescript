@@ -72,3 +72,11 @@ tsc init
 Learnt on how to specify data types for function parameters and the return value of the function. Also learnt on how to make a parameter optional.
 
 [Notes](./Video%208.ts)
+
+# Video 9 - Type Aliases
+
+Learnt about creating custom types and using them for variables or objects.
+
+[Notes](./Video%209.ts)
+
+# Video 10 - Function Types (signatures)
