@@ -64,7 +64,7 @@ This talked on the usefulness of the `any` type. This will let the specified var
 He talks about creating a config file for the Typescript, and on how to improve your workflow through it.
 To create the .tsconfig file, you can input this code in your terminal:
 ```bash
-tsc init
+tsc --init
 ```
 
 # Video 8 - Function Basics (& void)
