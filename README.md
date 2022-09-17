@@ -118,3 +118,11 @@ Then you can start using modules in Typescript.
 This video introduced me to "Interfaces". Interfaces are similar to Type Aliases, but for objects/classes. It helps to dictate the structure of an object(s).
 
 [Notes](./Video%2015.ts)
+
+# Video 16 - Interfaces with Classes
+
+Learnt on how to implement interfaces for a class. 
+
+[Notes](./Video%2016.ts)
+
+# Video 17 - Creating a RenderListItem Class
