@@ -114,3 +114,7 @@ To enable using modules in Typescript:
 Then you can start using modules in Typescript.
 
 # Video 15 - Interfaces
+
+This video introduced me to "Interfaces". Interfaces are similar to Type Aliases, but for objects/classes. It helps to dictate the structure of an object(s).
+
+[Notes](./Video%2015.ts)
