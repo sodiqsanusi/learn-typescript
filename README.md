@@ -102,3 +102,15 @@ Learnt on how to use "Access modifiers" on class properties and the different ty
 [Notes](./Video%2013.ts)
 
 # Video 14 - Modules
+
+This video talked on how to enable using modules in Typescript. Apparently, due to the fact that Typescript compiles by default into old Javascript (commonjs), you have to change some things in the tsconfig file to enable using mdoules.
+
+To enable using modules in Typescript:
+- Go to the `tsconfig.json` file, if it isn't present, create one.
+  - In the file, locate the `target` property and change it to `es6`.
+  - Also change the `module` property into `es2015`.
+- Then in your `index.html` file, you should add this property to the script tag that links to the main Javascript file where all modules will be imported in - `type="module"`
+
+Then you can start using modules in Typescript.
+
+# Video 15 - Interfaces
