@@ -96,3 +96,9 @@ Learnt how to query DOM elements through Typescript and the differences it has w
 This talked on how you create classes with Typescript and on how a class can be used as a default type.
 
 # Video 13 - Public, Private & Readonly
+
+Learnt on how to use "Access modifiers" on class properties and the different types of modifiers that can be used.
+
+[Notes](./Video%2013.ts)
+
+# Video 14 - Modules
