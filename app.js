@@ -20,13 +20,37 @@ var Payment = /** @class */ (function () {
     };
     return Payment;
 }());
-var form = document.querySelector('.new-item-form');
+var formA = document.querySelector('.new-item-form');
 // Inputs
 var type = document.querySelector('#type');
 var toFrom = document.querySelector('#toFrom');
 var details = document.querySelector('#details');
 var amount = document.querySelector('#amount');
-form.addEventListener('submit', function (e) {
+// List Template
+var ListTemplate = /** @class */ (function () {
+    function ListTemplate(container) {
+        this.container = container;
+    }
+    ListTemplate.prototype.render = function (item, heading, pos) {
+        var li = document.createElement('li');
+        var h4 = document.createElement('h4');
+        h4.innerText = heading;
+        li.append(h4);
+        var p = document.createElement('p');
+        p.innerText = item.format();
+        li.append(p);
+        if (pos == 'start') {
+            this.container.prepend(li);
+        }
+        else {
+            this.container.append(li);
+        }
+    };
+    return ListTemplate;
+}());
+var ul = document.querySelector('ul');
+var list = new ListTemplate(ul);
+formA.addEventListener('submit', function (e) {
     e.preventDefault();
     var doc;
     if (type.value == 'invoice') {
@@ -35,5 +59,5 @@ form.addEventListener('submit', function (e) {
     else {
         doc = new Payment(toFrom.value, amount.valueAsNumber, details.value);
     }
-    console.log(doc);
+    list.render(doc, type.value, 'start');
 });

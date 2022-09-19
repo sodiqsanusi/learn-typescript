@@ -126,3 +126,7 @@ Learnt on how to implement interfaces for a class.
 [Notes](./Video%2016.ts)
 
 # Video 17 - Creating a RenderListItem Class
+
+Created a class that allowed for updating the finance logger list based on inputs gotten
+
+# Video 18 - Intro to Generics

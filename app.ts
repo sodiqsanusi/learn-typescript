@@ -1,4 +1,8 @@
-class Invoice {
+interface hasFormatter {
+  format(): string
+}
+
+class Invoice implements hasFormatter{
   client: string;
   private amount: number;
   readonly details: string
@@ -14,7 +18,7 @@ class Invoice {
   }
 }
 
-class Payment {
+class Payment implements hasFormatter{
   recipient: string;
   private amount: number;
   readonly details: string
@@ -30,7 +34,7 @@ class Payment {
   }
 }
 
-const form = document.querySelector('.new-item-form') as HTMLFormElement;
+const formA = document.querySelector('.new-item-form') as HTMLFormElement;
 
 // Inputs
 const type = document.querySelector('#type') as HTMLSelectElement;
@@ -38,7 +42,36 @@ const toFrom = document.querySelector('#toFrom') as HTMLInputElement;
 const details = document.querySelector('#details') as HTMLInputElement;
 const amount = document.querySelector('#amount') as HTMLInputElement;
 
-form.addEventListener('submit', (e: Event) => {
+
+
+// List Template
+
+class ListTemplate {
+  constructor(private container: HTMLUListElement){}
+
+  render(item: hasFormatter, heading:string, pos: 'start' | 'end'){
+    const li = document.createElement('li');
+
+    const h4 = document.createElement('h4');
+    h4.innerText = heading;
+    li.append(h4);
+
+    const p = document.createElement('p');
+    p.innerText = item.format();
+    li.append(p);
+
+    if(pos == 'start'){
+      this.container.prepend(li)
+    }else{
+      this.container.append(li)
+    }
+  }
+}
+
+const ul = document.querySelector('ul')!;
+let list = new ListTemplate(ul)
+
+formA.addEventListener('submit', (e: Event) => {
   e.preventDefault()
   let doc;
   if(type.value == 'invoice'){
@@ -46,5 +79,6 @@ form.addEventListener('submit', (e: Event) => {
   }else{
     doc = new Payment(toFrom.value, amount.valueAsNumber, details.value)
   }
-  console.log(doc)
+  
+  list.render(doc, type.value, 'start')
 })
