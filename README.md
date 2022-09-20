@@ -130,3 +130,7 @@ Learnt on how to implement interfaces for a class.
 Created a class that allowed for updating the finance logger list based on inputs gotten
 
 # Video 18 - Intro to Generics
+
+Introduction to Generics in Typescript. What they do, how to use them & the best ways to use them.
+
+[Notes](./Video%2018.ts)
