@@ -142,3 +142,11 @@ Learnt on using Enums, and in the situations in which they are used.
 [Notes](./Video%2019.ts)
 
 # Video 20 - Tuples
+
+Tuples are like stricter arrays. Got introduced to them here.
+
+[Notes](./Video%2020.ts)
+
+# The End?
+This actually marks the end of the TypeScript course I'm following. It was really nice learning
+this ~~language~~ superset of JavaScript and I definitely look forward to using it in my later projects.
