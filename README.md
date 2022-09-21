@@ -134,3 +134,11 @@ Created a class that allowed for updating the finance logger list based on input
 Introduction to Generics in Typescript. What they do, how to use them & the best ways to use them.
 
 [Notes](./Video%2018.ts)
+
+# Video 19 - Enums
+
+Learnt on using Enums, and in the situations in which they are used.
+
+[Notes](./Video%2019.ts)
+
+# Video 20 - Tuples
